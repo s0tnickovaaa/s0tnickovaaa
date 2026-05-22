@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B4B77C6E-6E67-FC46-EDEB-64C7F4888F60}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ампир</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\sendemail-validate.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\pack\pack-b44948c6a30c8de270b1aafc6b39234209a0780b.idx" />
+    <None Include=".git\objects\pack\pack-b44948c6a30c8de270b1aafc6b39234209a0780b.pack" />
+    <None Include=".git\objects\pack\pack-b44948c6a30c8de270b1aafc6b39234209a0780b.rev" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\Virtual_Antropomorphal_guider.slnx\config\applicationhost.config" />
+    <None Include=".vs\Virtual_Antropomorphal_guider.slnx\FileContentIndex\5f8e6ab7-3f91-4e96-9175-ce1cd14d5c30.vsidx" />
+    <None Include=".vs\Virtual_Antropomorphal_guider.slnx\v18\.wsuo" />
+    <None Include=".vs\Virtual_Antropomorphal_guider.slnx\v18\DocumentLayout.backup.json" />
+    <None Include=".vs\Virtual_Antropomorphal_guider.slnx\v18\DocumentLayout.json" />
+    <None Include=".vs\Virtual_Antropomorphal_guider\CopilotIndices\18.4.114.215\CodeChunks.db" />
+    <None Include=".vs\Virtual_Antropomorphal_guider\CopilotIndices\18.4.114.215\SemanticSymbols.db" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="chroma_db\067ea853-6ff2-4373-a3f3-fd9c2aac0bdb\data_level0.bin" />
+    <None Include="chroma_db\067ea853-6ff2-4373-a3f3-fd9c2aac0bdb\header.bin" />
+    <None Include="chroma_db\067ea853-6ff2-4373-a3f3-fd9c2aac0bdb\length.bin" />
+    <None Include="chroma_db\067ea853-6ff2-4373-a3f3-fd9c2aac0bdb\link_lists.bin" />
+    <None Include="chroma_db\401b4949-2fa4-44fd-87a9-2b9a59bafaa0\data_level0.bin" />
+    <None Include="chroma_db\401b4949-2fa4-44fd-87a9-2b9a59bafaa0\header.bin" />
+    <None Include="chroma_db\401b4949-2fa4-44fd-87a9-2b9a59bafaa0\length.bin" />
+    <None Include="chroma_db\401b4949-2fa4-44fd-87a9-2b9a59bafaa0\link_lists.bin" />
+    <None Include="chroma_db\ae85aec1-a3c0-4a2a-8560-25ada10f0169\data_level0.bin" />
+    <None Include="chroma_db\ae85aec1-a3c0-4a2a-8560-25ada10f0169\header.bin" />
+    <None Include="chroma_db\ae85aec1-a3c0-4a2a-8560-25ada10f0169\length.bin" />
+    <None Include="chroma_db\ae85aec1-a3c0-4a2a-8560-25ada10f0169\link_lists.bin" />
+    <None Include="chroma_db\cc1ebf49-0877-4778-aa5d-d098c65c08e7\data_level0.bin" />
+    <None Include="chroma_db\cc1ebf49-0877-4778-aa5d-d098c65c08e7\header.bin" />
+    <None Include="chroma_db\cc1ebf49-0877-4778-aa5d-d098c65c08e7\length.bin" />
+    <None Include="chroma_db\cc1ebf49-0877-4778-aa5d-d098c65c08e7\link_lists.bin" />
+    <None Include="chroma_db\chroma.sqlite3" />
+    <None Include="chroma_db\e7c62fa3-4a28-42b9-8a4d-15e3734c5280\data_level0.bin" />
+    <None Include="chroma_db\e7c62fa3-4a28-42b9-8a4d-15e3734c5280\header.bin" />
+    <None Include="chroma_db\e7c62fa3-4a28-42b9-8a4d-15e3734c5280\length.bin" />
+    <None Include="chroma_db\e7c62fa3-4a28-42b9-8a4d-15e3734c5280\link_lists.bin" />
+    <None Include="config.py" />
+    <None Include="main.py" />
+    <None Include="populate_db.py" />
+    <None Include="README.md" />
+    <None Include="static\animations\config.json" />
+    <None Include="__pycache__\config.cpython-312.pyc" />
+    <None Include="__pycache__\config.cpython-314.pyc" />
+    <None Include="__pycache__\main.cpython-312.pyc" />
+    <None Include="__pycache__\main.cpython-314.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="data\campus_info.txt" />
+    <Content Include="data\fag.txt" />
+    <Content Include="data\fag_2.txt" />
+    <Content Include="data\fag_3.txt" />
+    <Content Include="requirements.txt" />
+    <Content Include="static\index.html" />
+    <Content Include="static\script.js" />
+    <Content Include="static\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\ампир.slnx\v18\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
